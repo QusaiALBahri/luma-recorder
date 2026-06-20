@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,45:0A84FF,70:8338EC,100:34C759&height=210&section=header&text=Luma%20Recorder&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Record.%20Explain.%20Ship.%20Keep%20it%20local.&descAlignY=60&descSize=20" alt="Luma Recorder animated header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,45:0A84FF,70:8338EC,100:34C759&height=210&section=header&text=Luma%20Recorder&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Record.%20Explain.%20Teach.&descAlignY=60&descSize=22" alt="Luma Recorder animated header" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=800&size=28&duration=2200&pause=650&color=64D2FF&center=true&vCenter=true&width=1000&lines=Screen+%2B+voice+%2B+camera+in+one+portable+app;No+account.+No+cloud.+No+telemetry.;Built+for+tutorials%2C+demos%2C+lessons%2C+and+support.;Arabic+%2B+English+interface+included." alt="Animated typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=800&size=28&duration=2200&pause=650&color=64D2FF&center=true&vCenter=true&width=1000&lines=Built+for+educators%2C+trainers%2C+and+knowledge+creators;Screen+%2B+voice+%2B+camera+for+clear+teaching;No+account.+No+cloud.+No+telemetry.;Arabic+%2B+English+interface+included." alt="Animated typing intro" />
 
 [![Windows](https://img.shields.io/badge/Windows-10%2B-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#download)
 [![Portable](https://img.shields.io/badge/Portable-No_Installer-34C759?style=for-the-badge)](#download)
@@ -19,7 +19,9 @@
 
 <div align="center">
 
-### A beautiful portable Windows screen recorder for tutorials, demos, lessons, webcam narration, audio capture, Arabic/English UI, and local-first video polish.
+### Record. Explain. Teach.
+
+### A local-first screen recorder built specifically for educators, trainers, and knowledge creators.
 
 **Official source only:**  
 [github.com/albahri-org](https://github.com/albahri-org) · [github.com/QusaiALBahri](https://github.com/QusaiALBahri?tab=repositories)
@@ -40,15 +42,15 @@ Luma Recorder is published by **albahri.org**. The project files and Windows exe
   <tr>
     <td width="50%" valign="top">
       <h3>English</h3>
-      <p><strong>Luma Recorder</strong> is a portable Windows screen recorder made for people who teach, explain, demonstrate, report issues, or save local visual notes.</p>
-      <p>Record your screen, add microphone narration, capture system audio when Windows exposes a loopback device, show your webcam overlay, then keep the result locally in the recordings folder.</p>
-      <p>It is built to feel fast: choose what to capture, press record, stop, polish if needed, and share the file your way.</p>
+      <p><strong>Luma Recorder</strong> is a portable Windows screen recorder for educators, trainers, course creators, and knowledge workers who teach through screens.</p>
+      <p>Record lessons, software walkthroughs, onboarding videos, classroom explanations, and training clips with screen, voice, webcam, and local files.</p>
+      <p>It is built to feel fast: choose what to teach, press record, stop, polish if needed, and share the file your way.</p>
     </td>
     <td width="50%" valign="top" dir="rtl" align="right">
       <h3>العربية</h3>
-      <p><strong>لوما ريكوردر</strong> هو مسجل شاشة محمول لنظام ويندوز، مناسب للشرح، الدروس، العروض، توثيق المشاكل، وتسجيل الملاحظات المرئية محليا.</p>
-      <p>يمكنك تسجيل الشاشة، إضافة صوت الميكروفون، تسجيل صوت النظام عند توفر جهاز loopback، إظهار الكاميرا فوق التسجيل، ثم الاحتفاظ بالفيديو محليا داخل مجلد التسجيلات.</p>
-      <p>صُمم ليكون سريع وواضح: اختر ما تريد تسجيله، اضغط تسجيل، أوقف التسجيل، عدّل إذا احتجت، ثم استخدم الملف بالطريقة التي تناسبك.</p>
+      <p><strong>لوما ريكوردر</strong> هو مسجل شاشة محمول لنظام ويندوز، مخصص للمعلمين، المدربين، صناع الدورات، وكل من يشرح المعرفة من خلال الشاشة.</p>
+      <p>يمكنك تسجيل الدروس، شرح البرامج، فيديوهات التدريب، عروض الصف، ومقاطع التعليم مع الشاشة والصوت والكاميرا والحفظ المحلي.</p>
+      <p>صُمم ليكون سريع وواضح: اختر ما تريد شرحه، اضغط تسجيل، أوقف التسجيل، عدّل إذا احتجت، ثم استخدم الملف بالطريقة التي تناسبك.</p>
     </td>
   </tr>
 </table>
@@ -59,14 +61,14 @@ Luma Recorder is published by **albahri.org**. The project files and Windows exe
 
 | File | Purpose |
 | --- | --- |
-| `LumaRecorder.exe` | Main portable recorder |
+| `LumaRecorder.exe` | Main portable recorder for lessons and training videos |
 | `LumaRecorder_Admin.exe` | Opens the recorder with a visible Windows UAC prompt for elevated apps |
 | `recordings/` | Default folder for saved videos |
 | `TRUST_AND_SAFETY.txt` | Publisher, source, privacy, and safety notes |
 | `Uninstall_LumaRecorder.cmd` | Removes the portable folder after confirmation |
 
 ```text
-LumaRecorder.exe -> choose capture -> record -> stop -> recordings/
+LumaRecorder.exe -> choose lesson area -> record -> teach -> recordings/
 ```
 
 ## The Experience
@@ -75,10 +77,10 @@ LumaRecorder.exe -> choose capture -> record -> stop -> recordings/
 
 <table>
   <tr>
-    <td align="center" width="25%"><h3>Choose</h3><p>Full screen or selected area.</p></td>
-    <td align="center" width="25%"><h3>Explain</h3><p>Mic, webcam, and system audio where available.</p></td>
-    <td align="center" width="25%"><h3>Polish</h3><p>Trim, compress, convert, snapshot, or zoom export.</p></td>
-    <td align="center" width="25%"><h3>Keep</h3><p>Local recordings in your portable folder.</p></td>
+    <td align="center" width="25%"><h3>Plan</h3><p>Pick the lesson, workflow, or concept.</p></td>
+    <td align="center" width="25%"><h3>Record</h3><p>Screen, voice, camera, and system audio where available.</p></td>
+    <td align="center" width="25%"><h3>Teach</h3><p>Explain clearly without fighting the tool.</p></td>
+    <td align="center" width="25%"><h3>Share</h3><p>Keep the local file or publish it anywhere.</p></td>
   </tr>
 </table>
 
@@ -87,7 +89,7 @@ LumaRecorder.exe -> choose capture -> record -> stop -> recordings/
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>Capture</h3>
+      <h3>Lesson Capture</h3>
       <ul>
         <li>Full-screen recording</li>
         <li>Selected-area recording</li>
@@ -97,7 +99,7 @@ LumaRecorder.exe -> choose capture -> record -> stop -> recordings/
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h3>Presenter Mode</h3>
+      <h3>Teacher Presence</h3>
       <ul>
         <li>Microphone narration</li>
         <li>Webcam overlay</li>
@@ -107,7 +109,7 @@ LumaRecorder.exe -> choose capture -> record -> stop -> recordings/
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h3>Audio</h3>
+      <h3>Training Audio</h3>
       <ul>
         <li>Microphone recording</li>
         <li>System audio when loopback is available</li>
@@ -118,7 +120,7 @@ LumaRecorder.exe -> choose capture -> record -> stop -> recordings/
   </tr>
   <tr>
     <td width="33%" valign="top">
-      <h3>Quick Polish</h3>
+      <h3>Fast Lesson Polish</h3>
       <ul>
         <li>Trim video</li>
         <li>Convert video</li>
@@ -128,7 +130,7 @@ LumaRecorder.exe -> choose capture -> record -> stop -> recordings/
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h3>Portable</h3>
+      <h3>Portable Classroom</h3>
       <ul>
         <li>No installer required</li>
         <li>Settings stay beside the app</li>
@@ -137,7 +139,7 @@ LumaRecorder.exe -> choose capture -> record -> stop -> recordings/
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h3>Trust</h3>
+      <h3>Trust For Teaching</h3>
       <ul>
         <li>Publisher metadata: albahri.org</li>
         <li>Official source links included</li>
