@@ -1,0 +1,92 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.48" stop-color="#10162F"/>
+      <stop offset="1" stop-color="#031D19"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="124" y1="116" x2="1166" y2="604" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A84FF"/>
+      <stop offset="0.45" stop-color="#8338EC"/>
+      <stop offset="0.72" stop-color="#64D2FF"/>
+      <stop offset="1" stop-color="#34C759"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" rx="34" fill="url(#bg)"/>
+  <circle cx="202" cy="160" r="130" fill="#0A84FF" opacity="0.22" filter="url(#blur)">
+    <animate attributeName="cx" values="202;250;202" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1090" cy="570" r="160" fill="#34C759" opacity="0.18" filter="url(#blur)">
+    <animate attributeName="cy" values="570;510;570" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="70" y="54" width="1140" height="612" rx="34" fill="#0C1224" opacity="0.94" stroke="#23324D" stroke-width="2"/>
+  <rect x="104" y="90" width="250" height="540" rx="28" fill="#111827" stroke="#263B5D"/>
+  <circle cx="229" cy="178" r="66" fill="url(#neon)" filter="url(#glow)">
+    <animate attributeName="r" values="61;70;61" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="229" cy="178" r="44" fill="#0C1224"/>
+  <path d="M207 182L222 197L254 158" stroke="#64D2FF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="229" y="286" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Luma</text>
+  <text x="229" y="322" text-anchor="middle" fill="#9CA3AF" font-family="Segoe UI, Arial, sans-serif" font-size="18">Recorder by albahri.org</text>
+  <rect x="142" y="360" width="174" height="38" rx="19" fill="#0A84FF"/>
+  <text x="229" y="385" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">LOCAL-FIRST</text>
+  <rect x="142" y="414" width="174" height="38" rx="19" fill="#15233C"/>
+  <text x="229" y="439" text-anchor="middle" fill="#64D2FF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">PORTABLE EXE</text>
+  <rect x="142" y="468" width="174" height="38" rx="19" fill="#15233C"/>
+  <text x="229" y="493" text-anchor="middle" fill="#34C759" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">AR + EN UI</text>
+  <rect x="388" y="90" width="752" height="210" rx="30" fill="#101A32" stroke="#263B5D"/>
+  <text x="430" y="156" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="900">Record. Explain. Ship.</text>
+  <text x="432" y="202" fill="#C7D2FE" font-family="Segoe UI, Arial, sans-serif" font-size="22">Screen + microphone + webcam + quick polish, without leaving your machine.</text>
+  <rect x="432" y="236" width="130" height="36" rx="18" fill="#0A84FF"/>
+  <text x="497" y="260" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Download</text>
+  <rect x="576" y="236" width="124" height="36" rx="18" fill="#1C2B48"/>
+  <text x="638" y="260" text-anchor="middle" fill="#64D2FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Source</text>
+  <rect x="714" y="236" width="142" height="36" rx="18" fill="#123228"/>
+  <text x="785" y="260" text-anchor="middle" fill="#34C759" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Contribute</text>
+  <rect x="388" y="328" width="230" height="134" rx="26" fill="#111827" stroke="#263B5D"/>
+  <text x="420" y="378" fill="#64D2FF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">SCREEN</text>
+  <text x="420" y="416" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">Area / Full</text>
+  <rect x="420" y="434" width="150" height="8" rx="4" fill="#0A84FF">
+    <animate attributeName="width" values="70;150;110;150" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="650" y="328" width="230" height="134" rx="26" fill="#111827" stroke="#263B5D"/>
+  <text x="682" y="378" fill="#34C759" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">AUDIO</text>
+  <rect x="682" y="410" width="16" height="34" rx="8" fill="#34C759">
+    <animate attributeName="height" values="18;48;28;42;18" dur="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="426;396;416;402;426" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="710" y="396" width="16" height="48" rx="8" fill="#64D2FF">
+    <animate attributeName="height" values="44;22;56;30;44" dur="1.7s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="400;422;388;414;400" dur="1.7s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="738" y="416" width="16" height="28" rx="8" fill="#8338EC">
+    <animate attributeName="height" values="20;52;24;44;20" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="424;392;420;400;424" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="782" y="433" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">Mic + System</text>
+  <rect x="912" y="328" width="230" height="134" rx="26" fill="#111827" stroke="#263B5D"/>
+  <text x="944" y="378" fill="#FFD166" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">CAMERA</text>
+  <rect x="944" y="402" width="72" height="48" rx="14" fill="#0A84FF"/>
+  <circle cx="980" cy="426" r="14" fill="#FFFFFF"/>
+  <text x="1030" y="433" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">Overlay</text>
+  <rect x="388" y="496" width="752" height="134" rx="30" fill="#101A32" stroke="#263B5D"/>
+  <text x="430" y="552" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">Built for creators, teachers, support teams, and builders.</text>
+  <text x="430" y="592" fill="#9CA3AF" font-family="Segoe UI, Arial, sans-serif" font-size="20">No account. No upload. No telemetry. Your recording stays yours.</text>
+  <circle cx="1086" cy="564" r="22" fill="#FF3B30">
+    <animate attributeName="opacity" values="1;0.28;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1060" y="604" fill="#FFB4AE" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">REC</text>
+  <rect x="-220" y="54" width="130" height="612" fill="#FFFFFF" opacity="0.08" transform="skewX(-18)">
+    <animate attributeName="x" values="-220;1380" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="1180" height="210" viewBox="0 0 1180 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1180" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A84FF"/>
+      <stop offset="0.52" stop-color="#8338EC"/>
+      <stop offset="1" stop-color="#34C759"/>
+    </linearGradient>
+  </defs>
+  <rect width="1180" height="210" rx="30" fill="#080D1D"/>
+  <rect x="4" y="4" width="1172" height="202" rx="28" stroke="url(#bg)" stroke-width="4"/>
+  <text x="58" y="74" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">Download, record, keep it local.</text>
+  <text x="58" y="118" fill="#BFD7FF" font-family="Segoe UI, Arial, sans-serif" font-size="20">LumaRecorder.exe for normal use. LumaRecorder_Admin.exe for elevated apps.</text>
+  <rect x="58" y="142" width="190" height="44" rx="22" fill="#0A84FF"/>
+  <text x="153" y="171" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="900">MAIN APP</text>
+  <rect x="266" y="142" width="210" height="44" rx="22" fill="#18233B"/>
+  <text x="371" y="171" text-anchor="middle" fill="#64D2FF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="900">ADMIN LAUNCHER</text>
+  <rect x="870" y="52" width="210" height="106" rx="24" fill="#111827"/>
+  <circle cx="912" cy="105" r="24" fill="#FF3B30">
+    <animate attributeName="opacity" values="1;0.35;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="955" y="86" width="84" height="12" rx="6" fill="#FFFFFF" opacity="0.78"/>
+  <rect x="955" y="112" width="58" height="12" rx="6" fill="#FFFFFF" opacity="0.38"/>
+  <path d="M-90 0H-20L118 210H48L-90 0Z" fill="#FFFFFF" opacity="0.11">
+    <animateTransform attributeName="transform" type="translate" values="0 0;1240 0" dur="4.8s" repeatCount="indefinite"/>
+  </path>
+</svg>
