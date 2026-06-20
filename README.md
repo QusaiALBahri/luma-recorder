@@ -1,54 +1,83 @@
 # Luma Recorder
 
-**Luma Recorder** is a portable Windows screen recorder built for clean tutorials, product demos, support videos, lessons, walkthroughs, and everyday screen capture. It keeps the workflow simple: open the app, choose what to record, add microphone or webcam if needed, and save the result locally.
+**A portable Windows screen recorder for people who want to press record, explain clearly, and keep the file.**
+
+Luma Recorder is made for tutorials, lessons, product demos, walkthroughs, support videos, bug reports, and quick knowledge sharing. It stays local, feels lightweight, and gives you the useful recording tools without turning the app into a studio cockpit.
 
 Published by **albahri.org**.
 
-Official source:
+Official source only:
 
 - <https://github.com/albahri-org>
 - <https://github.com/QusaiALBahri?tab=repositories>
 
-## Highlights
+---
 
-- Portable Windows app with no installer required
-- Full-screen and selected-area screen recording
-- Microphone recording
-- System-audio recording when Windows exposes a loopback audio device
-- Webcam overlay for presenter-style recordings
-- Floating recording control bar
-- Global hotkeys for record, stop, and pause
-- Recent recordings library
-- Video trimming, conversion, compression, snapshots, audio extraction, and zoom export
-- Arabic and English interface
-- Optional Windows EFS encryption for the recordings folder
-- Clean uninstall helper included
-- Local-first design with no upload, telemetry, cloud sync, or network feature
+## Why Luma Recorder Exists
 
-## Files
+Most screen recorders fall into one of two traps: too simple to be useful, or so packed with panels that recording feels like work before the work begins.
 
-| File | Purpose |
+Luma Recorder tries to sit in the better middle:
+
+- open it
+- choose what matters
+- record your screen, voice, and camera
+- polish the result when needed
+- keep everything on your own machine
+
+No account. No upload step. No cloud dashboard. Just a clean recorder that respects the moment.
+
+## What You Can Record
+
+| Need | Luma Recorder Gives You |
 | --- | --- |
-| `LumaRecorder.exe` | Main portable recorder |
-| `LumaRecorder_Admin.exe` | Launches the recorder with a visible Windows admin prompt |
-| `recordings/` | Default folder for saved recordings |
-| `TRUST_AND_SAFETY.txt` | Publisher, source, privacy, and safety notes |
-| `Uninstall_LumaRecorder.cmd` | Removes the portable app folder after confirmation |
+| A full tutorial | Screen + microphone + webcam overlay |
+| A quick bug report | Screen capture with fast local saving |
+| A polished walkthrough | Floating controls, pause/resume, and simple edits |
+| A private local workflow | Portable files, local recordings, optional folder encryption |
+| Admin-level app demos | Separate admin launcher with a visible Windows UAC prompt |
+| Arabic or English usage | Built-in language switch |
 
-## Quick Start
+## Feature Tour
 
-1. Download the repository or release package.
-2. Open `LumaRecorder.exe`.
-3. Choose full screen or selected area.
-4. Enable microphone, system audio, or webcam overlay if needed.
-5. Press **Record**.
-6. Saved videos appear in the `recordings/` folder.
+### Record Clearly
 
-For apps that run as administrator, use `LumaRecorder_Admin.exe`. Windows will show a normal UAC prompt before opening the recorder with elevated privileges.
+- Full-screen recording
+- Selected-area recording
+- Microphone capture
+- System audio capture when Windows exposes a loopback device
+- Webcam overlay for presenter-style videos
+- Cursor capture
+- Countdown before recording
+- Auto-stop timer
+- Pause and resume
+- Floating recording control bar
 
-## Privacy
+### Move Fast
 
-Luma Recorder is designed as a local portable app.
+- Portable `.exe`
+- No installer required
+- Recent recordings library
+- Open output folder instantly
+- Play the last recording
+- Global hotkeys:
+
+| Shortcut | Action |
+| --- | --- |
+| `Ctrl + Shift + R` | Start recording |
+| `Ctrl + Shift + S` | Stop recording |
+| `Ctrl + Shift + P` | Pause or resume |
+
+### Polish the Result
+
+- Trim video
+- Convert video
+- Compress video
+- Export a snapshot
+- Extract audio
+- Zoom/focus export for highlighting a specific area of the video
+
+### Keep It Local
 
 - No account sign-in
 - No upload feature
@@ -57,47 +86,113 @@ Luma Recorder is designed as a local portable app.
 - No background service
 - No network feature
 
-Recordings and settings stay inside the portable app folder unless you choose another output folder.
+Recordings and settings stay inside the portable app folder unless you choose a different output folder.
 
-## Security Notes
+## Download And Run
+
+From this repository, use:
+
+- `LumaRecorder.exe` for normal recording
+- `LumaRecorder_Admin.exe` when you need to record apps that are already running as administrator
+
+The default save location is:
+
+```text
+recordings/
+```
+
+## The First Minute
+
+1. Open `LumaRecorder.exe`.
+2. Pick **Full screen** or **Select area**.
+3. Turn on **Microphone** if you want narration.
+4. Turn on **Webcam overlay** if you want your camera in the recording.
+5. Press **Record**.
+6. Stop when finished.
+7. Find the video in `recordings/`.
+
+That is the whole loop.
+
+## Admin Launcher
+
+Some Windows apps run with elevated permissions. A normal recorder may not capture those apps correctly.
+
+For that case, use:
+
+```text
+LumaRecorder_Admin.exe
+```
+
+Windows will show a standard UAC prompt. After approval, the recorder opens with elevated privileges.
+
+Admin mode is not a bypass tool. It does not record Windows secure desktops, login screens, protected/DRM video, or operating-system privacy-protected surfaces.
+
+## Privacy And Safety
+
+Luma Recorder is designed as a local-first portable app.
 
 The Privacy tab includes optional Windows EFS encryption for the recordings folder. EFS encrypts files for the current Windows user account. Availability depends on the Windows edition, drive format, and system policy.
 
-Admin mode helps record elevated applications more reliably, but it does not bypass Windows secure desktops, login screens, protected/DRM video, or operating-system privacy protections.
+For transparency, the portable package also includes:
 
-## Interface Languages
+- `TRUST_AND_SAFETY.txt`
+- `SECURITY.md`
+- `Uninstall_LumaRecorder.cmd`
 
-Luma Recorder includes:
+## System Audio Notes
 
-- English
-- Arabic
+System audio recording depends on Windows exposing a loopback audio source. Depending on your audio driver, it may appear as:
 
-Switch language from the **Privacy** tab.
+- `Stereo Mix`
+- `What U Hear`
+- `Loopback`
+- a virtual audio cable device
 
-## Hotkeys
+If no loopback device appears, microphone recording still works normally.
 
-| Shortcut | Action |
-| --- | --- |
-| `Ctrl + Shift + R` | Start recording |
-| `Ctrl + Shift + S` | Stop recording |
-| `Ctrl + Shift + P` | Pause or resume |
+## Project Layout
 
-## System Audio
+```text
+.
+├─ LumaRecorder.exe
+├─ LumaRecorder_Admin.exe
+├─ src/
+│  ├─ luma_recorder.py
+│  └─ admin_launcher.py
+├─ packaging/
+│  ├─ version_main.txt
+│  └─ version_admin.txt
+├─ recordings/
+├─ build.ps1
+├─ BUILDING.md
+├─ SECURITY.md
+├─ TRUST_AND_SAFETY.txt
+├─ Uninstall_LumaRecorder.cmd
+└─ LICENSE
+```
 
-System audio recording on Windows depends on the audio driver exposing a loopback source such as:
+## Build From Source
 
-- Stereo Mix
-- What U Hear
-- Loopback
-- Virtual audio cable device
+Requirements:
 
-If no loopback device appears, microphone recording will still work normally.
+- Windows 10 or later
+- Python
+- PyInstaller
+- FFmpeg available on `PATH`
+
+Build:
+
+```powershell
+.\build.ps1
+```
+
+More details are in [BUILDING.md](BUILDING.md).
 
 ## Trust
 
-Windows file details identify the publisher as **albahri.org** and include the official source links above.
+Windows file details identify the publisher as **albahri.org** and include the official source links.
 
-For broad public distribution, the recommended next step is code signing with a certificate issued to the publisher. Code signing is the standard Windows trust mechanism for verified publisher identity.
+For public distribution at scale, sign release builds with a code-signing certificate issued to the publisher. Metadata helps people understand what they are running; code signing is the Windows standard for verified publisher identity.
 
 ## License
 
