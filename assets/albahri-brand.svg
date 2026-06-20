@@ -1,0 +1,33 @@
+<svg width="980" height="180" viewBox="0 0 980 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandBg" x1="0" y1="0" x2="980" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#0E243D"/>
+      <stop offset="1" stop-color="#06221B"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="92" y1="34" x2="888" y2="146" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A84FF"/>
+      <stop offset="0.5" stop-color="#64D2FF"/>
+      <stop offset="1" stop-color="#34C759"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect width="980" height="180" rx="30" fill="url(#brandBg)"/>
+  <path d="M85 118C152 52 222 52 288 118C355 184 425 184 492 118C559 52 629 52 696 118C763 184 833 184 900 118" stroke="url(#stroke)" stroke-width="10" stroke-linecap="round" opacity="0.95">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite"
+      values="M85 118C152 52 222 52 288 118C355 184 425 184 492 118C559 52 629 52 696 118C763 184 833 184 900 118;
+              M85 96C152 162 222 162 288 96C355 30 425 30 492 96C559 162 629 162 696 96C763 30 833 30 900 96;
+              M85 118C152 52 222 52 288 118C355 184 425 184 492 118C559 52 629 52 696 118C763 184 833 184 900 118"/>
+  </path>
+  <path d="M85 118C152 52 222 52 288 118C355 184 425 184 492 118C559 52 629 52 696 118C763 184 833 184 900 118" stroke="#64D2FF" stroke-width="16" stroke-linecap="round" opacity="0.25" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.15;0.36;0.15" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="120" cy="90" r="10" fill="#FFFFFF">
+    <animate attributeName="cx" values="120;860;120" dur="6.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="6.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="490" y="86" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800">albahri.org</text>
+  <text x="490" y="124" text-anchor="middle" fill="#D1D5DB" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">official publisher · local-first tools · open source</text>
+</svg>

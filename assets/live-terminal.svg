@@ -1,0 +1,15 @@
+<svg width="980" height="310" viewBox="0 0 980 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="980" height="310" rx="28" fill="#0B1020"/>
+  <rect x="34" y="30" width="912" height="250" rx="22" fill="#111827"/>
+  <circle cx="70" cy="59" r="8" fill="#FF5F57"/>
+  <circle cx="96" cy="59" r="8" fill="#FFBD2E"/>
+  <circle cx="122" cy="59" r="8" fill="#28C840"/>
+  <text x="64" y="112" fill="#64D2FF" font-family="Consolas, Menlo, monospace" font-size="22">$ open LumaRecorder.exe</text>
+  <text x="64" y="152" fill="#E5E7EB" font-family="Consolas, Menlo, monospace" font-size="22">screen: selected area</text>
+  <text x="64" y="192" fill="#E5E7EB" font-family="Consolas, Menlo, monospace" font-size="22">audio: microphone + system</text>
+  <text x="64" y="232" fill="#34C759" font-family="Consolas, Menlo, monospace" font-size="22">saved -> recordings/tutorial.mp4</text>
+  <rect x="64" y="242" width="14" height="28" fill="#FFFFFF">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="36" y="30" width="908" height="250" rx="22" stroke="#23324D" stroke-width="2"/>
+</svg>

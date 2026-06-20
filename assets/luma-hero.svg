@@ -15,8 +15,14 @@
     </filter>
   </defs>
   <rect width="1280" height="520" rx="34" fill="url(#bg)"/>
-  <circle cx="1090" cy="116" r="150" fill="#0A84FF" opacity="0.18" filter="url(#soft)"/>
-  <circle cx="188" cy="410" r="130" fill="#34C759" opacity="0.15" filter="url(#soft)"/>
+  <circle cx="1090" cy="116" r="150" fill="#0A84FF" opacity="0.18" filter="url(#soft)">
+    <animate attributeName="cx" values="1090;1038;1090" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="116;146;116" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="188" cy="410" r="130" fill="#34C759" opacity="0.15" filter="url(#soft)">
+    <animate attributeName="cx" values="188;226;188" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="410;380;410" dur="6s" repeatCount="indefinite"/>
+  </circle>
   <rect x="86" y="72" width="1108" height="376" rx="30" fill="#F7F7FA" opacity="0.96"/>
   <rect x="86" y="72" width="1108" height="54" rx="30" fill="#FFFFFF"/>
   <circle cx="128" cy="99" r="8" fill="#FF5F57"/>
@@ -24,12 +30,16 @@
   <circle cx="180" cy="99" r="8" fill="#28C840"/>
   <rect x="122" y="164" width="540" height="244" rx="22" fill="#0E162A"/>
   <rect x="146" y="188" width="492" height="156" rx="16" fill="#16243F"/>
-  <rect x="173" y="214" width="258" height="18" rx="9" fill="#64D2FF" opacity="0.88"/>
+  <rect x="173" y="214" width="258" height="18" rx="9" fill="#64D2FF" opacity="0.88">
+    <animate attributeName="width" values="210;330;258;210" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
   <rect x="173" y="252" width="386" height="14" rx="7" fill="#FFFFFF" opacity="0.22"/>
   <rect x="173" y="282" width="326" height="14" rx="7" fill="#FFFFFF" opacity="0.16"/>
   <rect x="480" y="217" width="122" height="94" rx="47" fill="#0A84FF"/>
   <circle cx="541" cy="264" r="28" fill="#FFFFFF"/>
-  <rect x="220" y="366" width="344" height="20" rx="10" fill="url(#accent)"/>
+  <rect x="220" y="366" width="344" height="20" rx="10" fill="url(#accent)">
+    <animate attributeName="width" values="180;344;280;344" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
   <circle cx="604" cy="374" r="18" fill="#FF3B30">
     <animate attributeName="opacity" values="1;0.45;1" dur="1.35s" repeatCount="indefinite"/>
   </circle>
@@ -43,4 +53,7 @@
   <text x="898" y="384" fill="#11823B" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Local</text>
   <rect x="1010" y="356" width="116" height="42" rx="21" fill="#FFF3D7"/>
   <text x="1038" y="384" fill="#9A5A00" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Open</text>
+  <rect x="-180" y="72" width="140" height="376" fill="#FFFFFF" opacity="0.12" transform="skewX(-18)">
+    <animate attributeName="x" values="-180;1320" dur="5s" repeatCount="indefinite"/>
+  </rect>
 </svg>
