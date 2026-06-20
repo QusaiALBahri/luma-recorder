@@ -1,66 +1,108 @@
+<div align="center">
+
+![Luma Recorder hero](assets/luma-hero.svg)
+
 # Luma Recorder
 
-**A portable Windows screen recorder for people who want to press record, explain clearly, and keep the file.**
+### A portable Windows screen recorder for clear tutorials, demos, lessons, support videos, and local-first capture.
 
-Luma Recorder is made for tutorials, lessons, product demos, walkthroughs, support videos, bug reports, and quick knowledge sharing. It stays local, feels lightweight, and gives you the useful recording tools without turning the app into a studio cockpit.
+[![Windows](https://img.shields.io/badge/Windows-10%2B-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#)
+[![Portable](https://img.shields.io/badge/Portable-No_Installer-34C759?style=for-the-badge)](#download-and-run)
+[![Privacy](https://img.shields.io/badge/Privacy-Local_Only-111827?style=for-the-badge)](#privacy-first)
+[![Languages](https://img.shields.io/badge/UI-English_%2F_Arabic-0A84FF?style=for-the-badge)](#interface-languages)
+[![License](https://img.shields.io/badge/License-MIT-F5A623?style=for-the-badge)](LICENSE)
 
-Published by **albahri.org**.
+**Published by albahri.org**
 
 Official source only:
 
-- <https://github.com/albahri-org>
-- <https://github.com/QusaiALBahri?tab=repositories>
+[github.com/albahri-org](https://github.com/albahri-org) · [github.com/QusaiALBahri](https://github.com/QusaiALBahri?tab=repositories)
+
+</div>
 
 ---
 
-## Why Luma Recorder Exists
+## The Idea
 
-Most screen recorders fall into one of two traps: too simple to be useful, or so packed with panels that recording feels like work before the work begins.
+Luma Recorder is for the moment when you need to show something clearly.
 
-Luma Recorder tries to sit in the better middle:
+Not after creating an account.  
+Not after setting up a cloud workspace.  
+Not after learning a full editing suite.
 
-- open it
-- choose what matters
-- record your screen, voice, and camera
-- polish the result when needed
-- keep everything on your own machine
+Open it, choose the screen area, add your voice or camera if needed, record, and keep the file on your own machine.
 
-No account. No upload step. No cloud dashboard. Just a clean recorder that respects the moment.
+![Luma Recorder workflow](assets/luma-flow.svg)
 
-## What You Can Record
+## What Makes It Feel Good
 
-| Need | Luma Recorder Gives You |
+<table>
+  <tr>
+    <td width="33%">
+      <h3>Fast To Start</h3>
+      <p>Portable executable, no installer, no background service, and a simple first screen built around recording.</p>
+    </td>
+    <td width="33%">
+      <h3>Made For Explaining</h3>
+      <p>Capture screen, microphone, system audio, and webcam overlay for tutorials, bug reports, lessons, and demos.</p>
+    </td>
+    <td width="33%">
+      <h3>Local By Design</h3>
+      <p>No account, no upload feature, no telemetry, no cloud sync. Your recordings stay where you put them.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%">
+      <h3>Useful After Recording</h3>
+      <p>Trim, convert, compress, extract audio, save snapshots, and export zoomed focus clips.</p>
+    </td>
+    <td width="33%">
+      <h3>Presenter Friendly</h3>
+      <p>Floating controls, countdown, pause/resume, webcam overlay, and global hotkeys keep the flow smooth.</p>
+    </td>
+    <td width="33%">
+      <h3>Ready For Real Windows Work</h3>
+      <p>Use the admin launcher when you need to record normal apps that are running with elevated permissions.</p>
+    </td>
+  </tr>
+</table>
+
+## Download And Run
+
+| File | Use It For |
 | --- | --- |
-| A full tutorial | Screen + microphone + webcam overlay |
-| A quick bug report | Screen capture with fast local saving |
-| A polished walkthrough | Floating controls, pause/resume, and simple edits |
-| A private local workflow | Portable files, local recordings, optional folder encryption |
-| Admin-level app demos | Separate admin launcher with a visible Windows UAC prompt |
-| Arabic or English usage | Built-in language switch |
+| `LumaRecorder.exe` | Normal screen recording |
+| `LumaRecorder_Admin.exe` | Recording normal elevated/admin apps after a visible Windows UAC prompt |
+| `recordings/` | Default output folder |
+| `Uninstall_LumaRecorder.cmd` | Clean removal of the portable folder after confirmation |
 
-## Feature Tour
+The simplest path:
 
-### Record Clearly
+```text
+LumaRecorder.exe -> Record -> Stop -> recordings/
+```
 
-- Full-screen recording
-- Selected-area recording
-- Microphone capture
-- System audio capture when Windows exposes a loopback device
-- Webcam overlay for presenter-style videos
-- Cursor capture
-- Countdown before recording
-- Auto-stop timer
-- Pause and resume
-- Floating recording control bar
+## First-Minute Walkthrough
 
-### Move Fast
+1. Open `LumaRecorder.exe`.
+2. Pick **Full screen** or **Select area**.
+3. Enable **Microphone** if you want narration.
+4. Enable **Webcam overlay** if you want a presenter view.
+5. Press **Record**.
+6. Press **Stop** when finished.
+7. Open `recordings/`.
 
-- Portable `.exe`
-- No installer required
-- Recent recordings library
-- Open output folder instantly
-- Play the last recording
-- Global hotkeys:
+## Feature Map
+
+| Record | Present | Polish | Protect |
+| --- | --- | --- | --- |
+| Full screen | Webcam overlay | Trim video | Local-only workflow |
+| Selected area | Floating bar | Convert video | Optional EFS encryption |
+| Microphone | Countdown | Compress video | Clean uninstall helper |
+| System audio where available | Pause/resume | Extract audio | Trust and safety notes |
+| Cursor capture | Hotkeys | Snapshot export | Admin launcher clarity |
+
+## Hotkeys
 
 | Shortcut | Action |
 | --- | --- |
@@ -68,80 +110,45 @@ No account. No upload step. No cloud dashboard. Just a clean recorder that respe
 | `Ctrl + Shift + S` | Stop recording |
 | `Ctrl + Shift + P` | Pause or resume |
 
-### Polish the Result
+## Privacy First
 
-- Trim video
-- Convert video
-- Compress video
-- Export a snapshot
-- Extract audio
-- Zoom/focus export for highlighting a specific area of the video
+Luma Recorder is built around a plain promise: the recording belongs to the user.
 
-### Keep It Local
-
-- No account sign-in
+- No sign-in
 - No upload feature
-- No cloud sync
 - No telemetry
+- No cloud sync
 - No background service
 - No network feature
 
-Recordings and settings stay inside the portable app folder unless you choose a different output folder.
-
-## Download And Run
-
-From this repository, use:
-
-- `LumaRecorder.exe` for normal recording
-- `LumaRecorder_Admin.exe` when you need to record apps that are already running as administrator
-
-The default save location is:
-
-```text
-recordings/
-```
-
-## The First Minute
-
-1. Open `LumaRecorder.exe`.
-2. Pick **Full screen** or **Select area**.
-3. Turn on **Microphone** if you want narration.
-4. Turn on **Webcam overlay** if you want your camera in the recording.
-5. Press **Record**.
-6. Stop when finished.
-7. Find the video in `recordings/`.
-
-That is the whole loop.
+The Privacy tab includes optional Windows EFS encryption for the recordings folder. EFS encrypts files for the current Windows user account. Availability depends on the Windows edition, drive format, and system policy.
 
 ## Admin Launcher
 
-Some Windows apps run with elevated permissions. A normal recorder may not capture those apps correctly.
+Some Windows applications run with elevated permissions. A normal recorder may not capture those apps correctly.
 
-For that case, use:
+Use:
 
 ```text
 LumaRecorder_Admin.exe
 ```
 
-Windows will show a standard UAC prompt. After approval, the recorder opens with elevated privileges.
+Windows will show a standard UAC prompt, then open the recorder elevated.
 
 Admin mode is not a bypass tool. It does not record Windows secure desktops, login screens, protected/DRM video, or operating-system privacy-protected surfaces.
 
-## Privacy And Safety
+## Interface Languages
 
-Luma Recorder is designed as a local-first portable app.
+Luma Recorder includes:
 
-The Privacy tab includes optional Windows EFS encryption for the recordings folder. EFS encrypts files for the current Windows user account. Availability depends on the Windows edition, drive format, and system policy.
+- English
+- Arabic
 
-For transparency, the portable package also includes:
-
-- `TRUST_AND_SAFETY.txt`
-- `SECURITY.md`
-- `Uninstall_LumaRecorder.cmd`
+Switch language from the **Privacy** tab.
 
 ## System Audio Notes
 
-System audio recording depends on Windows exposing a loopback audio source. Depending on your audio driver, it may appear as:
+System audio recording depends on Windows exposing a loopback audio source. Depending on the audio driver, it may appear as:
 
 - `Stereo Mix`
 - `What U Hear`
@@ -150,12 +157,15 @@ System audio recording depends on Windows exposing a loopback audio source. Depe
 
 If no loopback device appears, microphone recording still works normally.
 
-## Project Layout
+## Repository Layout
 
 ```text
 .
 ├─ LumaRecorder.exe
 ├─ LumaRecorder_Admin.exe
+├─ assets/
+│  ├─ luma-hero.svg
+│  └─ luma-flow.svg
 ├─ src/
 │  ├─ luma_recorder.py
 │  └─ admin_launcher.py
