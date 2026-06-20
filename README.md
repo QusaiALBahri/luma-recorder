@@ -1,10 +1,12 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A84FF,50:34C759,100:64D2FF&height=170&section=header&text=Luma%20Recorder&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Portable%20local-first%20screen%20recording%20for%20Windows&descAlignY=58&descSize=18" alt="Luma Recorder animated header" />
+
 ![Luma Recorder animated hero](assets/luma-hero.svg)
 
-# Luma Recorder
+<br/>
 
-### Portable Windows screen recording for tutorials, demos, lessons, support videos, and private local capture.
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=700&size=26&duration=2600&pause=700&color=0A84FF&center=true&vCenter=true&width=980&lines=Record+your+screen+without+losing+your+flow;Add+voice%2C+camera%2C+system+audio%2C+and+quick+polish;Local-first%2C+portable%2C+Arabic+%2B+English" alt="Animated Luma Recorder tagline" />
 
 [![Windows](https://img.shields.io/badge/Windows-10%2B-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#download-and-run)
 [![Portable](https://img.shields.io/badge/Portable-No_Installer-34C759?style=for-the-badge)](#download-and-run)
@@ -12,6 +14,9 @@
 [![Arabic + English](https://img.shields.io/badge/UI-English_%2B_Arabic-0A84FF?style=for-the-badge)](#arabic--english)
 [![Publisher](https://img.shields.io/badge/Publisher-albahri.org-64D2FF?style=for-the-badge)](#publisher)
 [![License](https://img.shields.io/badge/License-MIT-F5A623?style=for-the-badge)](LICENSE)
+![Stars](https://img.shields.io/github/stars/QusaiALBahri/luma-recorder?style=for-the-badge&color=FFD166)
+![Forks](https://img.shields.io/github/forks/QusaiALBahri/luma-recorder?style=for-the-badge&color=06D6A0)
+![Repo Size](https://img.shields.io/github/repo-size/QusaiALBahri/luma-recorder?style=for-the-badge&color=8338EC)
 
 **Record the screen. Explain with voice. Add camera. Keep the file.**
 
@@ -20,6 +25,8 @@ Official source only:
 [github.com/albahri-org](https://github.com/albahri-org) · [github.com/QusaiALBahri](https://github.com/QusaiALBahri?tab=repositories)
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:111827,100:0A84FF&height=2&section=footer" alt="" />
 
 ---
 
@@ -45,6 +52,17 @@ Luma Recorder is the middle path: a portable recorder that starts quickly, captu
 <div align="center">
 
 ![Luma Recorder live terminal demo](assets/live-terminal.svg)
+
+</div>
+
+## Repository At A Glance
+
+<div align="center">
+
+| Portable | Local | Bilingual | Presenter Ready |
+| :---: | :---: | :---: | :---: |
+| No installer | No telemetry | Arabic + English | Mic + webcam |
+| Runs from folder | Files stay local | Easy language switch | Floating controls |
 
 </div>
 
