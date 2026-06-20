@@ -1,0 +1,4 @@
+*.exe binary
+*.cmd text eol=crlf
+*.md text eol=lf
+*.txt text eol=lf

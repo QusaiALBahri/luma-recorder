@@ -1,0 +1,10 @@
+recordings/*
+!recordings/.gitkeep
+settings.json
+*.tmp
+*.log
+*.part
+*.crdownload
+__pycache__/
+.DS_Store
+Thumbs.db

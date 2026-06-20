@@ -1,0 +1,19 @@
+Luma Recorder - Trust and Safety
+
+Publisher / Developer: albahri.org
+Official source only:
+- https://github.com/albahri-org
+- https://github.com/QusaiALBahri?tab=repositories
+
+Safe-use notes:
+- Portable app: runs from this folder without installing system services.
+- Local-only: no upload, cloud sync, telemetry, or network feature is built into this app.
+- Recordings and settings stay inside this portable app folder unless you choose another output folder.
+- Optional Windows EFS encryption is available inside the Privacy tab for the recordings folder.
+- Use LumaRecorder.exe for normal recording.
+- Use LumaRecorder_Admin.exe only when you need Windows admin privileges to record elevated apps.
+- Admin mode does not bypass Windows secure screens, protected/DRM content, login screens, or privacy protections.
+- Uninstall_LumaRecorder.cmd removes this portable folder, settings, and recordings after confirmation.
+
+Important trust note:
+Windows SmartScreen and antivirus trust cannot be guaranteed by text metadata alone. For broad distribution, sign the executable with a real code-signing certificate issued to the publisher and distribute it only from the official source links above.
